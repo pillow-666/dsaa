@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="439" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.StudyController">
+   <children>
+       <ImageView fitHeight="71.0" fitWidth="55.0" layoutX="673.0" layoutY="34.0" onMouseClicked="#Music" pickOnBounds="true" preserveRatio="true">
+           <Image url="@/GUI/Pictures/QQmusic.png" />
+       </ImageView>
+
+       <ImageView fitHeight="71.0" fitWidth="55.0" layoutX="33.0" layoutY="61.0" onMouseClicked="#setCollect" pickOnBounds="true" preserveRatio="true">
+           <Image url="@/GUI/Pictures/star.png" />
+       </ImageView>
+
+   
+      <Button fx:id="tag" layoutX="654.0" layoutY="295.0" mnemonicParsing="false" onAction="#setTag" text="设置tag" />
+      <TextArea fx:id="textArea" layoutX="133.0" layoutY="158.0" prefHeight="274.0" prefWidth="470.0" />
+      <TextField fx:id="textField" layoutX="133.0" layoutY="120.0" prefHeight="23.0" prefWidth="415.0" />
+      <Button fx:id="search" layoutX="555.0" layoutY="120.0" mnemonicParsing="false" onAction="#search" text="搜索" />
+      <TextField fx:id="searchAuthor" layoutX="133.0" layoutY="77.0" />
+      <Label fx:id="label" layoutX="21.0" layoutY="6.0" prefHeight="55.0" prefWidth="759.0" text="当前已读入" />
+   </children>
+</AnchorPane>

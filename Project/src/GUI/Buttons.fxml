@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ButtonsController">
+    <children>
+        <Button fx:id="study" layoutX="43.0" layoutY="482.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="搜索">
+            <font>
+                <Font name="浮生未歇 by:伊筠&amp;阿影" size="23.0" />
+            </font></Button>
+        <Button fx:id="choose" layoutX="203.0" layoutY="482.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="学习">
+            <font>
+                <Font name="浮生未歇 by:伊筠&amp;阿影" size="23.0" />
+            </font></Button>
+        <Button fx:id="review" layoutX="367.0" layoutY="482.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="复习">
+            <font>
+                <Font name="浮生未歇 by:伊筠&amp;阿影" size="23.0" />
+            </font></Button>
+        <Button fx:id="myKnowledge" layoutX="540.0" layoutY="482.0" mnemonicParsing="false"  prefHeight="50.0" prefWidth="100.0" text="回顾">
+            <font>
+                <Font name="浮生未歇 by:伊筠&amp;阿影" size="23.0" />
+            </font></Button>
+    </children>
+
+</AnchorPane>

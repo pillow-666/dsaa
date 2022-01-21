@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ReviewController">
+    <children>
+        <TextField fx:id="howMany" layoutX="135.0" layoutY="40.0" prefHeight="23.0" prefWidth="373.0" />
+        <Button fx:id="confirm" layoutX="509.0" layoutY="40.0" mnemonicParsing="false" onAction="#setConfirm" text="确定" />
+        <Button layoutX="634.0" layoutY="136.0" mnemonicParsing="false" onAction="#setBeginStudy" text="充实自己" />
+        <Button layoutX="634.0" layoutY="284.0" mnemonicParsing="false" onAction="#setTotallyForget" text="完全忘记" />
+        <Button layoutX="634.0" layoutY="349.0" mnemonicParsing="false" onAction="#setGood" text="渐入佳境" />
+        <Button layoutX="634.0" layoutY="316.0" mnemonicParsing="false" onAction="#setForget" text="丢三落四" />
+        <Button layoutX="634.0" layoutY="379.0" mnemonicParsing="false" onAction="#setBest" text="滚瓜烂熟" />
+        <TextArea fx:id="show" layoutX="135.0" layoutY="86.0" prefHeight="350.0" prefWidth="415.0" />
+        <Button layoutX="22.0" layoutY="272.0" mnemonicParsing="false" onAction="#setFeedbackToday" text="给我反馈" />
+    </children>
+</AnchorPane>
